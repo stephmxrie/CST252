@@ -1,0 +1,82 @@
+html, body {
+background-image: url("../img/bg.gif");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+}
+#content {
+  display: inline-block;
+  width: 55%;
+  margin: 20px;
+  padding: 50px;
+  background-color:rgba(229, 173, 198, 0.8);
+  border: 10px dashed #d2cefc;
+  border-radius: 50px;
+
+}
+
+h1 {
+  color: #256b8b;
+  font-size: 40px;
+}
+
+h2 {
+  color: #93f1ba;
+  font-size: 30px;
+}
+p {
+  font-family: "times new roman", sans-serif;
+  word-spacing: 5px;
+  line-height:130%;
+  font-size:17px;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 6px;
+
+}
+
+.column img {
+  margin-top: 12px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#sidebar {
+  float: right;
+  text-align: center;
+  margin: 20px;
+  width: 500px;
+  border: dashed 15px #d2cefc;
+  background-color: rgba(205, 209, 228, 0.5)
+}
+
+nav {
+     position: sticky;
+     top: 0;
+     background-color: rgba(229, 173, 198, 0.5);
+     border: dashed 8px #b3d4f3;
+    border-radius: 50px;
+     color: #5f4398;
+     text-align: center;
+   }
+
+   nav a {
+     color: #5f4398;
+   }
+
+   * {
+     box-sizing: border-box;
+   }
