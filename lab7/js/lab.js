@@ -1,31 +1,22 @@
 /*
 COPIED FROM WES GITHUB TRIED TO FIGURE IT OUT ONLY GOT TO EDIT IT A LITTLE
 
+
+CREDIT
+
  * Author: S Llawom Eydansele <wmodes@csumb.edu>
  * Created: 19 September
  * License: Public Domain
  */
 
 
-function doSillyStuff() {
-
-
-  // put stuff here
-
-  return something;
-}
-
-
-
-
 // shuffleArray - take an array, returns shuffled array
-// Thanks to https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // While there remain elements to shuffle...
+    // Shuffle it more
     while (0 !== currentIndex) {
-        // Pick a remaining element...
+        // Pick a remaining element
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
