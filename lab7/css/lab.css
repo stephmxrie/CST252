@@ -1,0 +1,141 @@
+body{
+   background-image: url("../img/cloud.gif");
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: center;
+
+
+ }
+
+ script {
+     display: none;
+ }
+
+element.style {
+   }
+   .major-section {
+       margin: 20px;
+       padding: 25px;
+       border-top: solid 8px #7c70ff;
+       border-bottom: solid 8px #7c70ff;
+       border-left: dashed 8px #7c70ff;
+       border-right: dashed 8px #7c70ff;
+       border-radius: 50px;
+       background-color: rgba(205, 209, 228, 0.4);
+
+ }
+      div.image {
+          max-width:100%;
+          float: right;
+          margin: 20px;
+
+  }
+     img {
+       max-width:100%;
+       float: left;
+       margin: 20px;
+}
+
+
+
+
+nav {
+    display: block;
+}
+
+body {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Sarina', cursive;
+  text-align: center;
+}
+
+
+p {
+        text-transform: lowercase;
+        font-size: 1.2em;
+        word-spacing: 0.5em;
+        font-family: times new roman;
+        padding-bottom: 0;
+        margin-bottom: 0.25em;
+        color:#000;
+        text-align: center
+
+}
+
+h3 {
+      font-family: Oleo Script Swash Caps;
+      display: block;
+      text-transform: lowercase;
+      font-size: 2em;
+      text-shadow: 0 0 1px #1a175a;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+      word-spacing: 0.1em;
+      color: #655191
+}
+
+h2 {
+      text-decoration: underline overline wavy #8af5e5;
+      font-family: Sarina;
+      display: block;
+      text-transform: lowercase;
+      font-size: 2.6em;
+      text-shadow: 0 0 2px #1a175a;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+      word-spacing: 0.1em;
+      color: #9792f4
+}
+
+h1  {
+        font-family: Oleo Script Swash Caps;
+        display: block;
+        text-transform: lowercase;
+        font-size: 2.6em;
+        text-shadow: 0 0 3px #1a175a;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        word-spacing: 0.1em;
+        color: #625aff
+
+
+
+
+      }
+
+      nav {
+          position: sticky;
+           top: 0;
+          background-color: rgba(205, 209, 228, 0.4);
+           border: dotted 8px #b6b8e9;
+           border-radius: 50px;
+           color: #a4deff;
+           text-align: center;
+         }
+
+         nav a {
+           color: #a4deff;
+         }
+
+         * {
+           box-sizing: border-box;
+
+       }
+
+
+
+    }
+
+
+    aside {
+      width: 200px;
+      padding-left: 15px;
+      margin-left: 15px;
+      float: left;
+      font-style: italic;
+      background-color: lightgray;
+    }
+
+    img {
+    width: 200px;
+    }
