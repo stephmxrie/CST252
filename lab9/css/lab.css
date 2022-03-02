@@ -1,0 +1,84 @@
+html, body {
+background-image: url("../img/cloud.gif");
+background-size: cover;
+
+}
+#content {
+  display: inline-block;
+  width: 55%;
+  margin: 20px;
+  padding: 50px;
+  background-color: rgba(205, 209, 228, 0.4);
+  border: 10px double #fff;
+  border-radius: 50px;
+
+}
+
+h1 {
+  color: #fff;
+  font-family: Oleo Script Swash Caps;
+  font-size: 40px;
+}
+
+h2 {
+  color: #697f98;
+  font-family: Sarina;
+  font-size: 30px;
+}
+p {
+  color: #fff;
+  font-family: "times new roman", sans-serif;
+  word-spacing: 5px;
+  line-height:130%;
+  font-size:17px;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 6px;
+
+}
+
+.column img {
+  margin-top: 12px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#sidebar {
+  float: right;
+  text-align: center;
+  margin: 20px;
+  width: 500px;
+  border: dotted 12px #fff;
+  border-radius: 50px;
+  background-color:  rgba(255, 182, 193, 0.6);
+}
+
+nav {
+     position: sticky;
+     top: 0;
+     background-color: rgba(255, 182, 193, 0.6);
+     border: double 10px #fff;
+     border-radius: 50px;
+     color: #697f98;
+     text-align: center;
+   }
+
+   nav a {
+     color: #697f98;
+   }
+
+   * {
+     box-sizing: border-box;
+   }
