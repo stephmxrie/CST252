@@ -1,7 +1,7 @@
 /*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Created: 3 October
- * License: Public Domain
+ * Author: Stephanie Arteaga
+ * Created:   03.13.2022
+ * Thanks to Wes
  */
 
  housesArray = [
@@ -26,8 +26,7 @@
 credit = '<div class="credits">Hogwarts house descriptions courtesy of <a href="https://online.ucpress.edu/collabra/article/5/1/31/113037/The-Science-Behind-the-Magic-The-Relation-of-the">ucpress</a></div>';
 
 
-// Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
-// depending on length mod 4
+// Function sort depend on length //
 function sortingHatLength(str) {
   len = str.length;
   mod = len % 4;
@@ -35,10 +34,10 @@ function sortingHatLength(str) {
     return "Gryffindor"
   }
   else if (mod == 1) {
-    return "Ravenclaw"
+    return "Slytherin"
   }
   else if (mod == 2) {
-    return "Slytherin"
+    return "Ravenclaw"
   }
   else if (mod == 3) {
     return "Hufflepuff"
@@ -46,7 +45,6 @@ function sortingHatLength(str) {
 }
 
 // take a string and return a hashed checksum of the string
-// from https://stackoverflow.com/questions/26057572/
 function checksum(s) {
   var hash = 0, strlen = s.length, i, c;
   if ( strlen === 0 ) {
@@ -55,7 +53,7 @@ function checksum(s) {
   for ( i = 0; i < strlen; i++ ) {
     c = s.charCodeAt( i );
     hash = ((hash << 5) - hash) + c;
-    hash = hash & hash; // Convert to 32bit integer
+    hash = hash & hash;
   }
   return hash;
 };

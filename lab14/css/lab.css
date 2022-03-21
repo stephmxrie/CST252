@@ -1,0 +1,93 @@
+body{
+   background-image: url("../img/sky.jpg");
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+body {
+    font-family: arial;
+    padding: 25px;
+    font-size: 120%;
+      color: #fff;
+
+}
+
+#content {
+    padding: 50px;
+    background-color: rgba(132, 140, 207, 0.5);
+    border: dotted 20px #b0bde8;
+    border-radius: 50px;
+    min-height: 80vh;
+    text-align: left;
+}
+
+h1, h2, h3, h4 {
+    font-family: Oleo Script Swash Caps;
+      color: #fff;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+h1 {font-size: 45px;}
+h2 {font-size: 40px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+nav{
+  position: sticky;
+    top: 0;
+    background-color: rgba(132, 140, 207, 0.5);
+    border: dotted 20px #b0bde8;
+    border-radius: 50px;
+    box-shadow: -3px -3px 30px 17px #6c76ac;
+    text-align: center;
+}
+
+nav a {
+  color: #fff;
+}
+
+img{
+  float: right;
+  width: 300px;
+  height: auto;
+}
+
+#output {
+    /*font-size: 150%;
+    font-weight: bold;*/
+}
+
+.input-output {
+    border: solid 1px #333333;
+    padding: 10px 10px 30px;
+}
+
+.credits {
+    font-size: 60%;
+    color: #ffffff;
+}
+.credits a {
+    text-decoration: inherit;
+    color: inherit;
+}
