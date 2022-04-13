@@ -29,8 +29,7 @@ node.appendChild(textnode);
 
 
 // Append the "li" node to the list:
-document.getElementById("myList").appendChild(node);
-
+outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
 
 
 }

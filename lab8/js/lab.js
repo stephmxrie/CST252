@@ -30,3 +30,5 @@ var sortedNumbers = array.sort(function(a, b) {
 return a-b;
 });
 console.log("Sorted Array: ", sortedNumbers);
+
+outputEl.innerHTML = "<p id:output>" + newName + "</p>";

@@ -1,0 +1,72 @@
+html, body{
+  background-color: #d9d0ff;
+  font-size: 20px;
+  background-image:  url("../img/bg.webp");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.main{
+  display: inline-block;
+  width: 70%;
+  margin: 10%;
+  padding: 5%;
+  background-color: rgba(255, 99, 71, 0.2);
+  border: dashed 10px white;
+  border-radius: 25px 25px 25px 25px;
+  height: fit-content;
+}
+
+nav{
+  position: sticky;
+    top: 0;
+    background-color: rgba(255, 99, 71, 0.2);
+    border: 10px dashed #fff;
+    border-radius: 25px 0 25px 0;
+    box-shadow: -3px -3px 30px 17px #edb1d4;
+    text-align: center;
+}
+
+nav a {
+  color: #fff;
+}
+
+.subject{
+  border: solid 5px #f0b4ae;
+  border-radius: 25px 0 25px 0;
+}
+.challenges{
+  border: solid 5px #fbd1af;
+  border-radius: 25px 0 25px 0;
+}
+.results{
+  border: solid 5px #fcbb9a;
+  border-radius: 25px 0 25px 0;
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  font-size: 30px;
+  color: white;
+}
+p{
+  color:white;
+}
+.center-div {
+  width: 30%;
+  border: solid 3px black;
+  height: 400px;
+}
+
+img{
+  float: right;
+  width: 300px;
+  height: auto;
+}
